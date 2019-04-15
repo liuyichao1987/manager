@@ -46,7 +46,7 @@ public class Manager {
             dataLoader.loadTxt(fileName, data);
         } catch (FileNotFoundException ex) {
             Logger.getLogger(Manager.class.getName()).log(Level.SEVERE, null, ex);
-            System.out.println("文件未找到, 计算失败");
+            System.out.println("文件未找到, 计算失败test");
         } catch (IOException ex) {
             Logger.getLogger(Manager.class.getName()).log(Level.SEVERE, null, ex);
             System.out.println("Java IO 操作异常, 计算失败");
